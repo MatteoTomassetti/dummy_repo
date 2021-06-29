@@ -11,3 +11,5 @@ df["target_names"] = df["target"].apply(lambda x: iris_dataset["target_names"][i
 
 # scatter plot
 df.plot(kind="scatter", x="sepal length (cm)", y="sepal width (cm)")
+
+print("Plotting has been created")
